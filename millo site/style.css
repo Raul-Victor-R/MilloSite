@@ -4,12 +4,17 @@ body { /*cor de fundo*/
     color:rgb(0, 0, 0) 
   }
   
-  header { /*cor do cabeçalho*/
-    margin-top: 0;
+  .header { /*cor do cabeçalho*/
+    width: 100%;
     background-color:  rgb(141, 180, 172);
     color: rgb(0, 0, 0);
     padding: 30px;
+    position: fixed;
   } 
+
+  .content {
+    margin-top: 200px;
+  }
 
   .bagulho {
     display: flex;
@@ -61,7 +66,7 @@ body { /*cor de fundo*/
   }
 
   .logo img {
-    width: 85%;
+    width: 100%;
 }
 
   .botoes {
