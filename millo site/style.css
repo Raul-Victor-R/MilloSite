@@ -1,7 +1,8 @@
 body { /*cor de fundo*/ 
     font-family: Arial, sans-serif;
-    background-color:#e4edec;
-    color:rgb(0, 0, 0) 
+    background-color:#C7D7D8;
+    color:rgb(0, 0, 0); 
+    margin: 0px;
   }
   
   .header { /*cor do cabeçalho*/
@@ -9,18 +10,27 @@ body { /*cor de fundo*/
     background-color:  rgb(141, 180, 172);
     color: rgb(0, 0, 0);
     padding: 30px;
-    position: fixed;
   } 
 
-  .content {
-    margin-top: 200px;
+  .card {
+    background-color: #ffffff88;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: #000000;
+    padding: 10px;
+    margin-top: 10px;
   }
 
   .bagulho {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 27%;
   }
-  
+
+  ul {
+    justify-self: center;
+  }
+
   header nav ul { 
     list-style: none;
     display: flex;
@@ -51,21 +61,20 @@ body { /*cor de fundo*/
   }
   
   footer { /*cor rodape*/
-    background-color: rgb(170, 204, 197);
+    background-color: rgb(141, 180, 172);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 30px;
   }
 
-  .logo {
-    float: left;
-    vertical-align: middle;
+  .logo { 
+    justify-self: left;
     width: 139px;
     height: 139px;
-    padding: 0;
   }
 
   .logo img {
+    justify-self: left;
     width: 100%;
 }
 
@@ -84,3 +93,15 @@ body { /*cor de fundo*/
     width: 50%;
     height: 100%;
   }
+
+p {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center {
+  margin: 2% 25% 2%;
+  width: 50%;
+  padding: 10px;
+}
