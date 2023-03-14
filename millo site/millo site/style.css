@@ -1,0 +1,108 @@
+body { /*cor de fundo*/ 
+    font-family: Arial, sans-serif;
+    background-color:#C7D7D8;
+    color:rgb(0, 0, 0); 
+    margin: 0px;
+  }
+  
+  .header { /*cor do cabeçalho*/
+    background-color:  rgb(141, 180, 172);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+  } 
+
+  .card {
+    background-color: #ffffff88;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #466d4e;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .bagulho {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  ul {
+    justify-self: center;
+  }
+
+  header nav ul { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    display: flex;
+    justify-content: center;
+    margin: 50px 11px;
+  }
+  
+  header nav a { /*cor texto cabeçalho */
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  footer { /*cor rodape*/
+    background-color: rgb(141, 180, 172);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+  }
+
+  .logo { 
+    justify-self: left;
+    width: 139px;
+    height: 139px;
+  }
+
+  .logo img {
+    justify-self: left;
+    width: 100%;
+}
+
+  .botoes {
+  text-align: left;
+}
+
+  .botao {
+    margin-left: 15px;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+  }
+
+  .botao img {
+    width: 50%;
+    height: 100%;
+  }
+
+p {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center {
+  margin: 2% 25% 2%;
+  width: 50%;
+  padding: 10px;
+}
+
+
